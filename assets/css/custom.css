@@ -1,0 +1,71 @@
+/* Your custom styles integrated with the futuristic template */
+
+/* About Me Cards */
+.about-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0; /* Start hidden */
+}
+
+.about-card.active {
+    transform: scale(1.05);
+    opacity: 1; /* Fade in when active */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Skills Section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.skill {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Footer */
+#footer {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+    color: #fff;
+}
