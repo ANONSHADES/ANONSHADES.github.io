@@ -608,6 +608,9 @@ input:nth-child(2), textarea:nth-child(3) {
 .bounce-button:hover {
     animation: bounce 0.5s;
 }
+<a href="https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/yourcv.pdf" download>
+  <button style="background-color: #4CAF50; color: white; padding: 10px;">Download My CV</button>
+</a>
 
 /* Responsive Layout */
 @media (max-width: 768px) {
