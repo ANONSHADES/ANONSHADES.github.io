@@ -608,9 +608,21 @@ input:nth-child(2), textarea:nth-child(3) {
 .bounce-button:hover {
     animation: bounce 0.5s;
 }
-<a href=https://raw.githubusercontent.com/ANONSHADES/ANONSHADES.github.io/refs/heads/main/assets/IAN%20MUCHIRI%20MWANGI%20Resume%20.pdf" download>
-  <button style="background-color: #4CAF50; color: white; padding: 10px; position:relative; display:inline-block;">Download My CV</button>
-</a>
+a {
+  /* Hide the default underline for the anchor tag */
+  text-decoration: none;
+}
+
+button {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
 
 /* Responsive Layout */
 @media (max-width: 768px) {
