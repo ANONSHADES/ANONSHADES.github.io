@@ -608,16 +608,7 @@ input:nth-child(2), textarea:nth-child(3) {
 .bounce-button:hover {
     animation: bounce 0.5s;
 }
- .Download My Cv button {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px;
-      display: inline-block;
-    }
+ 
 
 /* Responsive Layout */
 @media (max-width: 768px) {
